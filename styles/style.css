@@ -1,8 +1,9 @@
 :root {
   --branding-color: #6C63FF;
-  --secondary-color:#F9F7FE;
+  --secondary-color:#d5cbed;
   --heading-font-family: 'Playfair Display', serif;
-  --default-font-family: 'Poppins', sans-serif
+  --default-font-family: 'Poppins', sans-serif;
+  --default-font-family-color: orangered;
 }
 
 body {
@@ -15,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-color: black;
+color: var(--default-font-family-color);
 font-family: var(--heading-font-family);
 font-weight: bold;
 }
@@ -90,17 +91,17 @@ h2 {
   color: white;
   line-height: 27px;
   font-size: 18px;
-  border-radius: 4px;
-  Padding: 18px, 30px, 18px, 30px
+  border-radius: 5px;
+  Padding: 18px 30px
 }
 
  .btn-branding-outline {
   color: var(--branding-color);
-  border: 1px solid var(--branding-color);
+  border: 3px solid var(--branding-color);
   line-height: 27px;
   font-size: 18px;
-  border-radius: 4px;
-  Padding: 18px, 30px, 18px, 30px
+  border-radius: 5px;
+  Padding: 18px 30px
   }
 
   .about-paragraphs {
